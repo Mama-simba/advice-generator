@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--darkblue);
+}
+
+:root {
+    --lightcyan: hsl(193, 38%, 86%);
+    --neongreen: hsl(150, 100%, 66%);
+    --grayishblue: hsl(217, 19%, 38%);
+    --darkgrayishblue: hsl(217, 19%, 24%);
+    --darkblue: hsl(218, 23%, 16%);
+}
+
+
+
+
+    .card {
+        width: 85%; 
+        margin: 10% auto 15% auto;
+        background-color: var(--darkgrayishblue);
+        border-radius: 10px;
+        text-align: center;
+        padding: 1.5rem;
+        position: relative;
+
+    }
+
+    h4 {
+        color: var(--neongreen);
+        letter-spacing: 5px;
+        padding: 2rem 0;
+    }
+
+    .advice {
+        font-size: 28px;
+        color: var(--lightcyan);
+    }
+
+    .desktopdivider {
+        display: block;
+        margin: 2rem auto;
+    }
+
+    .mobiledivider {
+        display: none;
+    }
+
+@media (max-width: 580px) {
+    .desktopdivider{
+        display: none;
+    }
+    .mobiledivider{
+        display: block;
+        display: block;
+        margin: 2rem auto;
+    }
+}
+
+
+    button {
+        padding: 1.2em;
+        border: none;
+        border-radius: 50%;
+        background-color: var(--neongreen);
+        position: relative;
+        top: 50px;
+        transition: all 0.3s ease 0s;  
+    }
+
+    .dice {
+        display: flex;
+        flex-direction: column;
+        top: 1px;
+        position: relative;
+        z-index: 99;
+    }
+
+    button:hover {
+        -webkit-box-shadow: 3px 3px 34px 6px var(--neongreen);
+        box-shadow: 3px 3px 34px 6px var(--neongreen);
+        cursor: pointer;
+    }
+
+ 
+
+
+
+
+.attribution {
+    text-align: center;
+    color: var(--lightcyan);
+    font-size: 14px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--neongreen);  
+}
+
+
+
+.attribution a:hover {
+    cursor: pointer;
+    text-shadow: var(--lightcyan) 3px 2px 2px;
+}
