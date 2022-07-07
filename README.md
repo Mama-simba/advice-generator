@@ -1,27 +1,29 @@
 # Frontend Mentor - Advice generator app
 
-The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.
-
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [The challenge](#the-challenge)
+- [Links](#links)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
 - [Author](#author)
 
 
 ## Overview
 
-
 ![](./images/screenshot.png)
 
 
+## The challenge
+
+The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.
+You can find all details [here](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+
 ### Links
 
-- Solution URL: [Check it out](https://advicesapp.netlify.app/)
+- Solution witch Fetch: [Check it out](https://advicesapp.netlify.app/)
+- Solution with Axios: 
 
 
 ### Built with

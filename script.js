@@ -16,7 +16,7 @@ function generateRandomAdvice(){
       adviceQuote.innerHTML = `"${data.slip.advice}"`;
     })
     .catch(error => {
-        console.log(error);
+        console.error(error);
     });
 
 }
