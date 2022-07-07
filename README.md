@@ -22,8 +22,8 @@ You can find all details [here](https://www.frontendmentor.io/challenges/advice-
 
 ### Links
 
-- Solution witch Fetch: [Check it out](https://advicesapp.netlify.app/)
-- Solution with Axios: 
+- Solution witch [Fetch](https://advicesapp.netlify.app/)
+- Solution with [Axios](https://advicesapp-axios.netlify.app/)
 
 
 ### Built with
