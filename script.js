@@ -7,7 +7,7 @@ let adviceNumber = document.querySelector("#number");
 
 function generateRandomAdvice(){
 
-    let randomNumber = Math.floor(Math.random() * 224) + 1;
+    let randomNumber = Math.floor(Math.random() * 224);
 
     fetch(`https://api.adviceslip.com/advice/${randomNumber}`)
     .then(response => response.json())
