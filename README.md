@@ -37,7 +37,8 @@ You can find all details [here](https://www.frontendmentor.io/challenges/advice-
 
 ### What I learned
 
-I learned how to fetch the Advice Slip API in order to show many different and random advices. In order to do that, I used the fetch method but I have also played around with the axios library. Feel free to explore whatever is best/easier for you.
+I learned how to fetch the Advice Slip API in order to show different advices randomly. In order to do that, I used the fetch method but I have also played around with the axios library. Feel free to explore whatever is best/easier for you.
+I have created a tutorial to explain the differences between fetch and axios. Check it out [here!](https://www.cristina-padilla.com/apicalls.html).
 
 
 ## Author
